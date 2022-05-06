@@ -10,11 +10,13 @@
     "ejs": "^2.7.4",
     "express": "^4.16.4",
     "mongoose": "^5.7.12",
+    "nodemon": "^2.0.16",
     "routes": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "aiswarya",
   "license": "ISC"
